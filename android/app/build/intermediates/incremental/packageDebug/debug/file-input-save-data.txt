@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Thu Mar 12 23:13:57 CST 2020
+1.base=C\:\\Users\\90418\\Desktop\\test_a\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+2.path=night.jpg
+0.baseType=DIRECTORY
+2.base=C\:\\Users\\90418\\Desktop\\test_a\\android\\app\\build\\intermediates\\assets\\debug
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=breath.mp3
+0.set=ASSET
+0.base=C\:\\Users\\90418\\Desktop\\test_a\\android\\app\\build\\intermediates\\assets\\debug
+2.baseType=DIRECTORY
+1.path=classes.dex
