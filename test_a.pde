@@ -13,11 +13,15 @@ Minim minim;
 
 
 
+//import cassette.audiofiles.SoundFile;
+
+//SoundFile music;
 
 
 int main_state;
 
 PImage img_1;
+PImage crek,qibaishi;
 
 void setup()
 {
@@ -36,16 +40,22 @@ void setup()
    textFont(myf);
    
    
-   img_1 = loadImage("night.jpg");
+   img_1 = loadImage("pic1-0.jpg");
+   crek = loadImage("crek.jpg");
+   qibaishi = loadImage("qibaishi.jpg");
    
 
   // minim = new Minim(this); 
   // player = minim.loadFile("breath.mp3");
+  //music = new SoundFile(this, "breath.mp3");
    main_state = 0;
 }
 
 
-
+void init_one()
+{
+  
+}
 
 //主程序
 void draw(){
@@ -53,6 +63,7 @@ void draw(){
      drawmain();
   else if(main_state == 1)
   {
+    init_one();
     drawone();
   }
   else if(main_state == 2)

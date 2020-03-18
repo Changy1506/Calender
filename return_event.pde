@@ -9,6 +9,7 @@ void draw_reutrn()
   if(mousePressed && mouseY < 200 && mouseX < 200)
   {
     main_state = 0;
+   // music.stop();
   //  if(player.isPlaying())
    //   player.pause();
   }
