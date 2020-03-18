@@ -25,6 +25,8 @@ PImage img_1;
 PImage crek,qibaishi;
 PImage mask2;
 PImage wine;
+PImage virus;
+PImage mushroom;
 void setup()
 {
  //定义画布大小
@@ -47,6 +49,8 @@ void setup()
    qibaishi = loadImage("qibaishi.jpg");
    mask2 = loadImage("mask.jpg");
    wine = loadImage("wine.jpg");
+   virus = loadImage("virus.jpg");
+   mushroom = loadImage("mushroom.jpg");
 
   // minim = new Minim(this); 
   // player = minim.loadFile("breath.mp3");
@@ -66,7 +70,7 @@ void draw(){
     //init_one();
     drawone();
    //  S_2 = 0;
-  //  draw5();
+   // draw7();
   }
   else if(main_state == 2)
   {
