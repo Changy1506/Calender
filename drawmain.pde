@@ -1,14 +1,27 @@
 void Helix(float add_val){
-    int a = (int)add_val;
+    
+  fill(color(170,63,45));
+  
+ // rect(40,500,720,20);
+  
+ // rect(40,780,720,20);
+  
+  fill(128);
+  rect(150,550,500,200);
+  
+  
+  
+  
+  int a = (int)add_val;
     if(a < 1) a = 1;
-      fill(128);
+      fill(255);
      textSize(144);
      text("第"+a+"天",400,700);  
 }
 
 void drawmain()
 {
-  background(255);//设置画布背景灰度等级，数值范围0~255，数值越小越黑
+  image(bg,0,0);//设置画布背景灰度等级，数值范围0~255，数值越小越黑
  //在画布的下方水平画一个狭长的矩形，并填充黑色，以形成一条粗线
  //这个粗线就是滚动条的水平标尺
  fill(128);
@@ -61,7 +74,7 @@ void drawmain()
     
  }
  //当鼠标左键松开时，螺旋线的形状不变
- else if (mousePressed && mouseY > 600)
+ else if (mousePressed && mouseY > 500)
  {
    main_state = int(add_val);
    if(main_state < 1) main_state = 1;

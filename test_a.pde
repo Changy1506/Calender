@@ -20,6 +20,7 @@ Minim minim;
 
 int main_state;
 
+PImage bg;
 PImage img_1;
 PImage crek,qibaishi;
 
@@ -39,7 +40,7 @@ void setup()
    myf = createFont("楷体",128);
    textFont(myf);
    
-   
+   bg = loadImage("background.jpg");
    img_1 = loadImage("pic1-0.jpg");
    crek = loadImage("crek.jpg");
    qibaishi = loadImage("qibaishi.jpg");
@@ -52,10 +53,7 @@ void setup()
 }
 
 
-void init_one()
-{
-  
-}
+
 
 //主程序
 void draw(){
@@ -63,11 +61,14 @@ void draw(){
      drawmain();
   else if(main_state == 1)
   {
-    init_one();
-    drawone();
+    //init_one();
+    //drawone();
+   //  S_2 = 0;
+    draw2();
   }
   else if(main_state == 2)
   {
+    S_2 = 0;
     draw2();
   }
   else if(main_state == 3)

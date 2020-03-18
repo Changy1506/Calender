@@ -7,7 +7,7 @@ int S_1 = 0;
 
 void draw_music_one()
 {
-  fill(128);
+  fill(color(170,63,45));
   rect(500,35,250,100);
   fill(255);
   textSize(96);
@@ -42,7 +42,7 @@ void draw_crek()
 
 void draw_state_one()
 {
-  background(255);
+   image(bg,0,0);
   draw_music_one();
   textSize(48);
   fill(0);
