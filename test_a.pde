@@ -23,7 +23,8 @@ int main_state;
 PImage bg;
 PImage img_1;
 PImage crek,qibaishi;
-
+PImage mask2;
+PImage wine;
 void setup()
 {
  //定义画布大小
@@ -44,7 +45,8 @@ void setup()
    img_1 = loadImage("pic1-0.jpg");
    crek = loadImage("crek.jpg");
    qibaishi = loadImage("qibaishi.jpg");
-   
+   mask2 = loadImage("mask.jpg");
+   wine = loadImage("wine.jpg");
 
   // minim = new Minim(this); 
   // player = minim.loadFile("breath.mp3");
@@ -62,13 +64,13 @@ void draw(){
   else if(main_state == 1)
   {
     //init_one();
-    //drawone();
+    drawone();
    //  S_2 = 0;
-    draw2();
+  //  draw4();
   }
   else if(main_state == 2)
   {
-    S_2 = 0;
+    
     draw2();
   }
   else if(main_state == 3)
