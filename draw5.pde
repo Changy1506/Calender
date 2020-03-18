@@ -95,7 +95,7 @@ void no5()
   image(bg,0,0);
   textSize(72);
   fill(0);
-  text("答错了",500,350); 
+  text("答错了",400,350); 
   context5();
   bar53();
 }
