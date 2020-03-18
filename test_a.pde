@@ -66,7 +66,7 @@ void draw(){
     //init_one();
     drawone();
    //  S_2 = 0;
-  //  draw4();
+  //  draw5();
   }
   else if(main_state == 2)
   {
