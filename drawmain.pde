@@ -47,7 +47,7 @@ void drawmain()
       popMatrix();//恢复坐标原点到画布的左上角
       //把区间在20到580的mouseX当前值正比换算为区间0.04到0.2的值
       //这个算式的执行，可以使鼠标X当前值成正比地影响螺旋线半径增加值
-      add_val = map(mouseX, 40, 960, 1, 35);  
+      add_val = map(mouseX, 40, 960, 1, 22);  
       Helix(add_val); //调用画螺旋线子程序 
       mouseX_keep=mouseX; 
     }
@@ -65,10 +65,10 @@ void drawmain()
     //同时螺旋线半径增加值最大
     else if(mouseX>=760)
     { 
-      add_val = 28;
+      add_val = 17;
       fill(0);
       ellipse(760,1400,66,66);
-      Helix( 28); 
+      Helix( 17); 
       mouseX_keep = 760; 
     }
     

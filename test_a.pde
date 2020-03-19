@@ -1,5 +1,5 @@
  float add_val ;//定义螺旋线半径增加值
-float mouseX_keep;//定义变量，用于保存鼠标当前X值
+float mouseX_keep = 40;//定义变量，用于保存鼠标当前X值
 PFont myf;
 //画螺旋线子程序
 
@@ -28,8 +28,11 @@ PImage wine;
 PImage virus;
 PImage mushroom;
 PImage pz1,pz2,pz3,pz4;
-PImage mz1;
+PImage mz1,mz2;
 PImage chunhua;
+PImage li;
+PImage zhuda,bird;
+PImage nalan;
 
 void setup()
 {
@@ -61,8 +64,17 @@ void setup()
    pz4 = loadImage("puzzle4.jpg");
 
    mz1 = loadImage("maze1.jpg");
+   mz2 = loadImage("maze2.jpg");
+   
+   li = loadImage("li.jpg");
+   
+   zhuda = loadImage("zhuda.jpg");
+   bird = loadImage("bird.jpg");
    
    chunhua = loadImage("chunhua.jpg");
+  
+   nalan = loadImage("nalan.jpg");  
+  
   // minim = new Minim(this); 
   // player = minim.loadFile("breath.mp3");
   //music = new SoundFile(this, "breath.mp3");
@@ -78,10 +90,8 @@ void draw(){
      drawmain();
   else if(main_state == 1)
   {
-    //init_one();
+  //  draw15();
     drawone();
-   //  S_2 = 0;
-    //draw11();
   }
   else if(main_state == 2)
   {
@@ -124,6 +134,27 @@ void draw(){
   {
     draw11();
   }
+  else if(main_state == 12)
+  {
+    draw12();
+  }
+  
+  else if(main_state == 13)
+  {
+    draw13();
+  }
+  else if(main_state == 14)
+  {
+    draw14();
+  }
+  else if(main_state == 15)
+  {
+    draw15();
+  }
+  else if(main_state == 16)
+  {
+    draw16();
+  }
   else
-    draw2();
+    draw17();
 }
