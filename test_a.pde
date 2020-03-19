@@ -29,6 +29,7 @@ PImage virus;
 PImage mushroom;
 PImage pz1,pz2,pz3,pz4;
 PImage mz1;
+PImage chunhua;
 
 void setup()
 {
@@ -60,6 +61,8 @@ void setup()
    pz4 = loadImage("puzzle4.jpg");
 
    mz1 = loadImage("maze1.jpg");
+   
+   chunhua = loadImage("chunhua.jpg");
   // minim = new Minim(this); 
   // player = minim.loadFile("breath.mp3");
   //music = new SoundFile(this, "breath.mp3");
@@ -78,7 +81,7 @@ void draw(){
     //init_one();
     drawone();
    //  S_2 = 0;
-   // draw10();
+    //draw11();
   }
   else if(main_state == 2)
   {
@@ -116,6 +119,10 @@ void draw(){
   else if(main_state == 10)
   {
     draw10();
+  }
+  else if(main_state == 11)
+  {
+    draw11();
   }
   else
     draw2();
