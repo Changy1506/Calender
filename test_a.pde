@@ -27,6 +27,9 @@ PImage mask2;
 PImage wine;
 PImage virus;
 PImage mushroom;
+PImage pz1,pz2,pz3,pz4;
+PImage mz1;
+
 void setup()
 {
  //定义画布大小
@@ -51,7 +54,12 @@ void setup()
    wine = loadImage("wine.jpg");
    virus = loadImage("virus.jpg");
    mushroom = loadImage("mushroom.jpg");
+   pz1 = loadImage("puzzle1.jpg");
+   pz2 = loadImage("puzzle2.jpg");
+   pz3 = loadImage("puzzle3.jpg");
+   pz4 = loadImage("puzzle4.jpg");
 
+   mz1 = loadImage("maze1.jpg");
   // minim = new Minim(this); 
   // player = minim.loadFile("breath.mp3");
   //music = new SoundFile(this, "breath.mp3");
@@ -70,7 +78,7 @@ void draw(){
     //init_one();
     drawone();
    //  S_2 = 0;
-   // draw7();
+   // draw10();
   }
   else if(main_state == 2)
   {
