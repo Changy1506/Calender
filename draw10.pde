@@ -7,7 +7,7 @@ void draw10()
   
   textSize(48);
   fill(0);
-  image(pz2,100,550);
+  image(pz2,25,550);
   draw_reutrn();
 }
 
@@ -85,7 +85,7 @@ void draw9()
   
   textSize(48);
   fill(0);
-  image(pz1,100,550);
+  image(pz1,25,550);
   draw_reutrn();
 }
 void draw8()
@@ -97,7 +97,7 @@ void draw8()
   
   textSize(48);
   fill(0);
-  image(mz1,100,550);
+  image(mz1,25,550);
   draw_reutrn();
 }
 void draw12()
@@ -109,7 +109,7 @@ void draw12()
   
   textSize(48);
   fill(0);
-  image(mz2,100,550);
+  image(mz2,25,550);
   draw_reutrn();
 }
 
@@ -127,8 +127,9 @@ void draw11()
   text("往事知多少”",400,550);
   text("取自南唐后主",400,650);
   text("李煜所作词《虞美人》",400,750);
-  text("下图为李静书法作品",400,850);
-  image(chunhua,100,950);
+  text("下图为《虞美人》书法作品",400,850);
+  text("（作者李静）",400,950);
+  image(chunhua,100,1050);
   draw_reutrn();
 }
 

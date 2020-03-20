@@ -79,6 +79,7 @@ void setup()
   // player = minim.loadFile("breath.mp3");
   //music = new SoundFile(this, "breath.mp3");
    main_state = 0;
+   mouseX_keep = 40;
 }
 
 

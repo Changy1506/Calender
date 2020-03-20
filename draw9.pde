@@ -40,7 +40,7 @@ void draw_state_141()
   text("点击“翻页”",400,750); 
   text("欣赏其花鸟作品",400,850);
   
-  image(zhuda,272,900);
+  image(zhuda,200,900);
   draw_b14();
 }
 void draw14()
