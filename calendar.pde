@@ -93,41 +93,41 @@ void draw(){
      drawmain();
   else if(main_state == 1)
   {
-    draw19();
-   // drawone();
+    //draw21();
+    drawone();
   }
   else if(main_state == 2)
   {
     
-    draw2();
+    draw21();
   }
   else if(main_state == 3)
   {
-    draw3();
+    draw9();
   }
   else if(main_state == 4)
   {
-    draw4();
+    draw2();
   }
   else if(main_state == 5)
   {
-    draw5();
+    draw8();
   }
   else if(main_state == 6)
   {
-    draw6();
+    draw3();
   }
   else if(main_state == 7)
   {
-    draw7();
+    draw11();
   }
   else if(main_state == 8)
   {
-    draw8();
+    draw14();
   }
-  else if(main_state == 9)
+  else if(main_state == 9)////////////
   {
-    draw9();
+    draw22();
   }
   else if(main_state == 10)
   {
@@ -135,7 +135,7 @@ void draw(){
   }
   else if(main_state == 11)
   {
-    draw11();
+    draw13();
   }
   else if(main_state == 12)
   {
@@ -144,20 +144,20 @@ void draw(){
   
   else if(main_state == 13)
   {
-    draw13();
+    draw4();
   }
   else if(main_state == 14)
   {
-    draw14();
+    draw15();
   }
   else if(main_state == 15)
   {
-    draw15();
+    draw18();
   }
   else if(main_state == 16)
   {
-    draw16();
+    draw20();
   }
   else
-    draw17();
+    draw19();
 }
