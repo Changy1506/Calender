@@ -88,6 +88,36 @@ void draw9()
   image(pz1,25,550);
   draw_reutrn();
 }
+
+
+void draw18()
+{
+  image(bg,0,0);
+  textSize(72);
+  fill(0);
+  text("查看答案",400,350); 
+  textSize(48);
+  fill(0);
+  text("共有7处不同",400,450); 
+  textSize(48);
+  fill(0);
+  image(ans,25,550);
+  draw_reutrn();
+}
+
+
+void draw19()
+{
+  image(bg,0,0);
+  textSize(72);
+  fill(0);
+  text("查看答案",400,350); 
+  textSize(48);
+  fill(0);
+  image(pz4,25,550);
+  draw_reutrn();
+}
+
 void draw8()
 {
   image(bg,0,0);

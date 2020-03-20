@@ -32,7 +32,7 @@ PImage mz1,mz2;
 PImage chunhua;
 PImage li;
 PImage zhuda,bird;
-PImage nalan;
+PImage nalan,ans;
 
 void setup()
 {
@@ -74,6 +74,8 @@ void setup()
    chunhua = loadImage("chunhua.jpg");
   
    nalan = loadImage("nalan.jpg");  
+   
+   ans = loadImage("ans.png");
   
   // minim = new Minim(this); 
   // player = minim.loadFile("breath.mp3");
@@ -91,8 +93,8 @@ void draw(){
      drawmain();
   else if(main_state == 1)
   {
-  //  draw15();
-    drawone();
+    draw19();
+   // drawone();
   }
   else if(main_state == 2)
   {
