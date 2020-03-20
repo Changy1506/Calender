@@ -118,6 +118,30 @@ void draw19()
   draw_reutrn();
 }
 
+
+void draw20()
+{
+  image(bg,0,0);
+  textSize(72);
+  fill(0);
+  text("参考答案",400,350); 
+  textSize(48);
+  fill(0);
+  text("“春花秋月何时了",400,450); 
+  draw_reutrn();
+}
+void draw21()
+{
+  image(bg,0,0);
+  textSize(72);
+  fill(0);
+  text("参考答案",400,350); 
+  textSize(48);
+  fill(0);
+  text("“春花秋月何时了",400,450); 
+  draw_reutrn();
+}
+
 void draw8()
 {
   image(bg,0,0);
